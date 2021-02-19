@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyInfer", "TinyInfer.vcxproj", "{0A85DA5F-E039-40EB-B2BC-2A4FCA68614F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A85DA5F-E039-40EB-B2BC-2A4FCA68614F}.Debug|x64.ActiveCfg = Debug|x64
+		{0A85DA5F-E039-40EB-B2BC-2A4FCA68614F}.Debug|x64.Build.0 = Debug|x64
+		{0A85DA5F-E039-40EB-B2BC-2A4FCA68614F}.Debug|x86.ActiveCfg = Debug|Win32
+		{0A85DA5F-E039-40EB-B2BC-2A4FCA68614F}.Debug|x86.Build.0 = Debug|Win32
+		{0A85DA5F-E039-40EB-B2BC-2A4FCA68614F}.Release|x64.ActiveCfg = Release|x64
+		{0A85DA5F-E039-40EB-B2BC-2A4FCA68614F}.Release|x64.Build.0 = Release|x64
+		{0A85DA5F-E039-40EB-B2BC-2A4FCA68614F}.Release|x86.ActiveCfg = Release|Win32
+		{0A85DA5F-E039-40EB-B2BC-2A4FCA68614F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E406A44-1B10-4CCB-B4A5-6A30D9B47D1D}
+	EndGlobalSection
+EndGlobal
