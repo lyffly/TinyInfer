@@ -1,0 +1,6 @@
+.git
+.vs
+Debug
+Release
+TinyInfer/Debug
+TinyInfer/Release
