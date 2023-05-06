@@ -1,19 +1,20 @@
-#pragma once
+
 #pragma once
 #include "layer.h"
-#include "op_relu.h"
+
 
 class LayerRelu : public Layer {
 
 public:
 	~LayerRelu() override = default;
-	explicit LayerRelu(const std::shared_ptr<Operator> &op);
-	void Forward() override;
+	explicit LayerRelu(const std::string& name);
+	void Forward(std::vector<std::shared_ptr<Tensor>> &ins, 
+			std::vector<std::shared_ptr<Tensor>> &outs) override;
 
 
-	static std::shared_ptr<Layer> CreateInstance(const std::shared_ptr<Operator> &op);
+	//static std::shared_ptr<Layer> CreateInstance();
 
 private:
-	std::shared_ptr<OpRelu> op_;
+	
 
 };

@@ -140,13 +140,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Layer.cpp" />
+    <ClCompile Include="layer_relu.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="common.h" />
+    <ClInclude Include="common_cuda_kernels.cuh" />
     <ClInclude Include="layer.h" />
     <ClInclude Include="layer_relu.h" />
     <ClInclude Include="op.h" />
-    <ClInclude Include="op_relu.h" />
+    <ClInclude Include="tensor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="tensor.cu" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

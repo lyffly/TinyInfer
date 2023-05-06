@@ -21,19 +21,37 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="layer_relu.cpp">
+      <Filter>源文件\ops</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>源文件\ops</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="op.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="op_relu.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="layer.h">
+    <ClInclude Include="tensor.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="layer_relu.h">
+      <Filter>源文件\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="layer.h">
+      <Filter>源文件\ops</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="common_cuda_kernels.cuh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="tensor.cu" />
   </ItemGroup>
 </Project>
